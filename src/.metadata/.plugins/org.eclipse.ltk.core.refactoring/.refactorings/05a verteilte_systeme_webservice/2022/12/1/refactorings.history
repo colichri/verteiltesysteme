@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;de.mbg.webservice.server&apos; to &apos;rest/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;verteilte_systeme_webservice&apos;&#x0D;&#x0A;- Destination element: &apos;rest/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;verteilte_systeme_webservice/src/de.mbg.webservice.server&apos;" description="Copy package" destination="=rest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;de.mbg.webservice.server" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1672170045831" version="1.0"/>
+</session>

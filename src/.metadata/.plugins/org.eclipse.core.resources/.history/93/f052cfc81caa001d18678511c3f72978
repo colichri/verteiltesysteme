@@ -1,0 +1,151 @@
+
+package de.mbg.soap.gen;
+
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlElementDecl;
+import javax.xml.bind.annotation.XmlRegistry;
+import javax.xml.namespace.QName;
+
+
+/**
+ * This object contains factory methods for each 
+ * Java content interface and Java element interface 
+ * generated in the de.mbg.soap.gen package. 
+ * <p>An ObjectFactory allows you to programatically 
+ * construct new instances of the Java representation 
+ * for XML content. The Java representation of XML 
+ * content can consist of schema derived interfaces 
+ * and classes representing the binding of schema 
+ * type definitions, element declarations and model 
+ * groups.  Factory methods for each of these are 
+ * provided in this class.
+ * 
+ */
+@XmlRegistry
+public class ObjectFactory {
+
+    private final static QName _Divide_QNAME = new QName("http://server.webservice.mbg.de/", "divide");
+    private final static QName _DivideResponse_QNAME = new QName("http://server.webservice.mbg.de/", "divideResponse");
+    private final static QName _AddResponse_QNAME = new QName("http://server.webservice.mbg.de/", "addResponse");
+    private final static QName _GetExampleUser_QNAME = new QName("http://server.webservice.mbg.de/", "getExampleUser");
+    private final static QName _Add_QNAME = new QName("http://server.webservice.mbg.de/", "add");
+    private final static QName _GetExampleUserResponse_QNAME = new QName("http://server.webservice.mbg.de/", "getExampleUserResponse");
+
+    /**
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: de.mbg.soap.gen
+     * 
+     */
+    public ObjectFactory() {
+    }
+
+    /**
+     * Create an instance of {@link Add }
+     * 
+     */
+    public Add createAdd() {
+        return new Add();
+    }
+
+    /**
+     * Create an instance of {@link GetExampleUserResponse }
+     * 
+     */
+    public GetExampleUserResponse createGetExampleUserResponse() {
+        return new GetExampleUserResponse();
+    }
+
+    /**
+     * Create an instance of {@link AddResponse }
+     * 
+     */
+    public AddResponse createAddResponse() {
+        return new AddResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetExampleUser }
+     * 
+     */
+    public GetExampleUser createGetExampleUser() {
+        return new GetExampleUser();
+    }
+
+    /**
+     * Create an instance of {@link Divide }
+     * 
+     */
+    public Divide createDivide() {
+        return new Divide();
+    }
+
+    /**
+     * Create an instance of {@link DivideResponse }
+     * 
+     */
+    public DivideResponse createDivideResponse() {
+        return new DivideResponse();
+    }
+
+    /**
+     * Create an instance of {@link User }
+     * 
+     */
+    public User createUser() {
+        return new User();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Divide }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "divide")
+    public JAXBElement<Divide> createDivide(Divide value) {
+        return new JAXBElement<Divide>(_Divide_QNAME, Divide.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link DivideResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "divideResponse")
+    public JAXBElement<DivideResponse> createDivideResponse(DivideResponse value) {
+        return new JAXBElement<DivideResponse>(_DivideResponse_QNAME, DivideResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link AddResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "addResponse")
+    public JAXBElement<AddResponse> createAddResponse(AddResponse value) {
+        return new JAXBElement<AddResponse>(_AddResponse_QNAME, AddResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExampleUser }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "getExampleUser")
+    public JAXBElement<GetExampleUser> createGetExampleUser(GetExampleUser value) {
+        return new JAXBElement<GetExampleUser>(_GetExampleUser_QNAME, GetExampleUser.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link Add }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "add")
+    public JAXBElement<Add> createAdd(Add value) {
+        return new JAXBElement<Add>(_Add_QNAME, Add.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetExampleUserResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.webservice.mbg.de/", name = "getExampleUserResponse")
+    public JAXBElement<GetExampleUserResponse> createGetExampleUserResponse(GetExampleUserResponse value) {
+        return new JAXBElement<GetExampleUserResponse>(_GetExampleUserResponse_QNAME, GetExampleUserResponse.class, null, value);
+    }
+
+}

@@ -1,0 +1,27 @@
+package de.mbg.soap;
+
+import de.mbg.soap.gen.CalculatorService;
+import de.mbg.soap.gen.CalculatorServiceService;
+import de.mbg.soap.gen.User;
+
+public class ClientMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		CalculatorServiceService service = new CalculatorServiceService();
+		CalculatorService calculator = service.getCalculatorServicePort();
+		int x = 3;
+		int y = 74;
+
+		int result = calculator.add(x, y);
+		System.out.println("Add " + x + " to " + y + " = " + result);
+
+		double div = calculator.divide(y, x);
+		System.out.println("Divide " + x + " to " + y + " = " + div);
+
+		User user = calculator.getExampleUser();
+		System.out.println("User = " + user.getShortName());
+	}
+}
